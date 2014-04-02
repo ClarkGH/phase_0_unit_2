@@ -57,7 +57,7 @@ end
 
 =end
 
-#Code I built from the ground up for further understanding and for cleaner and easier to understand code.
+#Code I built from additional research for further understanding and for cleaner and easier to understand code.
 
 fence_lizards = ["Adam Dziuk", "Adam Ryssdal", "Aki Suzuki", "Allison Wong", "Andra Lally", "Andrew McDonald", "Anup Pradhan", "CJ Jameson", "Christopher Aubuchon", "Clark Hinchcliff", "Devin Johnson", "Dominick Oddo", "Dong Kevin Kang", "Eiko Seino", "Eoin McMillan", "Eric Wehrli", "Hunter Chapman", "Jacob Persing", "Jon Pabico", "Mary (Molly) Huerster", "Parjam Davoody", "Samuel Davis", "Sebastian Belmar", "Shawn Seibert", "William Bushyhead", "Yuzu Saijo", "Christiane Kammerl"]
 
@@ -144,7 +144,7 @@ puts group_maker(fence_lizards).at(0) != group_maker(fence_lizards).at(1) && gro
 	
 What parts of your strategy worked? What problems did you face?
 	Initially, Andra and I tried using the .shuffle method inside of a 3.times do loop.
-	Unfortunately it returned 3 of the same output and we could figure out why. So we
+	Unfortunately it returned 3 of the same output and we couldn't figure out why. So we
 	just created 3 separate loop cases instead.
 	We also had syntax problems with a lot of our code. I want to figure out how to return [[a]] instead of syntax errors
 	After finishing our code, I went and looked at other people's solutions. I did my best not to copy, but struggled with making my own code run when I tried looping my display.

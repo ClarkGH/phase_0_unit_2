@@ -1,7 +1,7 @@
-# U2.W4: Title here
+# U2.W4: Homework Cheater
 
 
-# I worked on this challenge [by myself, with: ].
+# I worked on this challenge [by myself].
 
 # 2. Pseudocode
 
