@@ -28,7 +28,7 @@ def separate_comma(number)
 	big_array = string.chars.to_a
 	reversed = big_array.reverse
 	sliced = reversed.each_slice(3)
-	joined = sliced.map(&:join).join(",")
+	joined = sliced.map{ |char| char.upcase }.join(",")
 	finished_product = joined.reverse
 	return finished_product
 end

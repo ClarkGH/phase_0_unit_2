@@ -18,7 +18,7 @@
 # Steps:
 
 =begin
-1. List all cohort names.	
+1. List all names in the cohort.	
 2. Create a method named group_creator that accepts an array of names (names from socrates)
 3. make the method shuffle the names permanently
 4. create an empty array
