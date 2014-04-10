@@ -50,7 +50,6 @@
 class GuessingGame
   def initialize(answer)
     @answer = answer
-    @solved = false
   end
 
   def guess(guess)
@@ -63,7 +62,7 @@ class GuessingGame
   end
   
   def solved?
-  	return @solved until @guess == @answer
+  	return false until @guess == @answer
   	return true
   end
 end
