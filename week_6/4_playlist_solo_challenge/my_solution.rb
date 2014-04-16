@@ -56,7 +56,10 @@ class Playlist
 	end
 
 	def display
-		puts "The songs in the playlist are #{songs_in_queue}"
+		puts "The songs in the playlist are:"
+		songs_in_queue.each do |song|
+			puts "#{song.title} by #{song.artist}"
+		end
 	end
 
 	def play(song)
@@ -108,6 +111,7 @@ my_playlist.display
 
 # What parts of your strategy worked? What problems did you face?
 	#This problem was more difficult than the other solo challenge. I had a harder time printing out each individual song for my display method. I could do it if I had more time, but I have to go to work.
+	# I take back what I said, after taking a short break I was able to do everything without problems, just needed some time to reflect :D
 
 # What questions did you have while coding? What resources did you find to help you answer them?
 	#Calling other class methods and variable, I figured it out eventually.
@@ -126,3 +130,4 @@ my_playlist.display
 
 # Which parts of the challenge did you find tedious?
 	#This was a little difficult for me. I kept pushing when I should have taken a break.
+	#Taking a break did wonders when I revisited it. No more programming marathons!
