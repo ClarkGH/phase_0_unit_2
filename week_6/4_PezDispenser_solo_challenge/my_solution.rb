@@ -121,6 +121,7 @@ assert {"You have #{super_mario.pez_count} pez!"  == "You have 9 pez!"}
 # 	I did add in the maximum amount of 12 pez though.
 # 	I didn't feel that the narration belonged outside of the class, so I just moved it onto the inside, which may not have been the best plan, so I eventually left the rest alone and stopped playing God with my code. It would have made creating the driver code easier if I hadn't done things that way.
 # 	I still have a pretty good grasp on driver code though, so I don't think it really matters. Easy project, and fun!
+# 	If we wanted to actually save purple for later, we could create a "save_for_later" method that uses shift, and shifts the flavor onto the front of the array, that was purple would be popped out last.
 
 # What questions did you have while coding? What resources did you find to help you answer them?
 	#I didn't really have any, this was fun.
