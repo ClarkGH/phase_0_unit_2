@@ -129,6 +129,7 @@ assert {valid.class == CreditCard}
 # What concepts are you having trouble with, or did you just figure something out? If so, what?
 
 # Did you learn any new skills or tricks?
+	# I learned more about .reduce(:+) from this refactoring, very nice.
 
 # How confident are you with each of the learning objectives?
 	#this was great practice, I liked it.
