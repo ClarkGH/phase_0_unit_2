@@ -80,7 +80,7 @@ end
 
 # Refactored Solution
 
-
+#Everything is organized and built in such a way that there is no need to refactor at this time.
 
 
 
@@ -110,9 +110,8 @@ my_playlist.display
 # Reflection 
 
 # What parts of your strategy worked? What problems did you face?
-	#This problem was more difficult than the other solo challenge. I had a harder time printing out each individual song for my display method. I could do it if I had more time, but I have to go to work.
-	# I take back what I said, after taking a short break I was able to do everything without problems, just needed some time to reflect :D
-
+	#This problem was more difficult than the other solo challenge. It was a great lesson.
+	
 # What questions did you have while coding? What resources did you find to help you answer them?
 	#Calling other class methods and variable, I figured it out eventually.
 
