@@ -19,6 +19,66 @@
 
 # 3. Initial Solution
 
+# class Car
+# 	attr_reader :model, :color
+
+# 	def initialize(model, color)
+# 		@model = model
+# 		@color = color
+# 		@pizzas = []
+# 		@miles = 0
+# 		@distance = 0
+# 	end
+
+# 	def reset
+# 		@miles = 0
+# 		@distance = 0
+# 		return "The distance traveled has been reset to 0 miles."
+# 	end
+
+# 	def drive(miles)
+# 		@miles = miles
+# 		"You will now drive #{@miles} miles."
+# 	end
+
+# 	def set_speed(mph=0)
+# 		"You are now driving at a speed of #{mph} mph."
+# 	end
+
+# 	def turn(left_or_right)
+# 		if left_or_right == "right"
+# 			return "You are now turning right."
+# 		elsif left_or_right == "left"
+# 				return "You are now turning left."
+# 		else
+# 			return "Please enter right or left in lower case"
+# 		end
+# 	end
+
+# 	def distance_traveled
+# 		@distance += @miles
+# 		return "You have traveled #{@distance} miles."
+# 	end
+
+# 	def pizza_compartment(*add_pizza)
+# 		@pizzas.push(*add_pizza).flatten!
+# 		return "We have #{@pizzas.join(", ")} pizzas in our compartment."
+# 	end
+
+# 	def deliver_pizza
+# 		delivered_pizza = @pizzas.shift
+# 		return "#{delivered_pizza} pizza has been delivered."
+# 	end
+# end
+
+# class Pizza
+# 	attr_reader :pizza_type
+# 	def initialize(pizza_type)
+# 		@pizza_type = pizza_type
+# 	end
+# end
+# 4. Refactored Solution
+
 class Car
 	attr_reader :model, :color
 
@@ -51,7 +111,7 @@ class Car
 		elsif left_or_right == "left"
 				return "You are now turning left."
 		else
-			return "Please enter right or left in lower case"
+			raise ArgumentError, "Please enter right or left in lower case"
 		end
 	end
 
@@ -77,7 +137,6 @@ class Pizza
 		@pizza_type = pizza_type
 	end
 end
-# 4. Refactored Solution
 
 #There are a lot of ways to refactor, but that would mainly be with the way my TDD has been running the code
 #I feel that for now, the code is as clean and as easy to understand as it can be. 
