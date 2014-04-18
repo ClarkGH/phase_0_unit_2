@@ -1,7 +1,7 @@
 # U2.W6: Drawer Debugger
 
 
-# I worked on this challenge [by myself].
+# I worked on this challenge [with Devin Johnson].
 
 
 # 2. Original Code
@@ -34,8 +34,7 @@ class Drawer
 	end
 
 	def dump  # what should this method return?
-		@contents.reject! {|item|
-			item}
+		@contents.clear
 		puts "Your drawer is empty."
 	end
 
